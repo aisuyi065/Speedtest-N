@@ -31,7 +31,7 @@ SAME_IP_MULTI_LOGS = false：是否允许同一IP记录多条测速结果
 **非面板部署：**
 ```bash
 yum install httpd php git -y
-git clone https://github.com/youheiss/Speedtest-N.git
+git clone https://github.com/aisuyi065/Speedtest-N.git
 cd Speedtest-N/
 cp -R backend/ chartjs/ *.html *.js /var/www/html/
 cd /var/www/html/
